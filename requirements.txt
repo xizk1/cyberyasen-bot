@@ -1,0 +1,9 @@
+aiogram==2.25.1
+torch
+torchvision
+diffusers
+transformers
+accelerate
+pillow
+requests
+numpy
