@@ -26,7 +26,7 @@ bot_token = os.environ.get("BOT_TOKEN")
 
 class config:
     def __init__(self):
-        self.model = "SG161222/Realistic_Vision_V5.1_noVAE"
+        self.model = "OFA-Sys/small-stable-diffusion-v0"
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.steps = 25
         self.size = 384
